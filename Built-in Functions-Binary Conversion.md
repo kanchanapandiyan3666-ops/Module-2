@@ -10,14 +10,14 @@ To write a Python program to convert the number **16** into its **binary represe
 
 ## 🧾 Program
 ```
-num = int(input("Enter a decimal number: "))
+num = int(input())
 binary = bin(num)
 print("Binary value:", binary)
 ```
 
 ## Output
 ```
-Enter a decimal number: 10
+10
 Binary value: 0b1010
 ```
 
