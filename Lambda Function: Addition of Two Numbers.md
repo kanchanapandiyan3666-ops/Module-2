@@ -11,15 +11,15 @@ To write a Python program that defines a **lambda function** which takes two arg
 ## 🧾 Program
 ```
 add = lambda a, b: a + b
-num1 = int(input("Enter the number: "))
-num2 = int(input("Enter the number: "))
+num1 = int(input())
+num2 = int(input())
 print("Sum =", add(num1, num2))
 ```
 
 ## Output
 ```
-Enter first number: 10
-Enter second number: 20
+ 10
+ 20
 Sum = 30
 ```
 ## Result
