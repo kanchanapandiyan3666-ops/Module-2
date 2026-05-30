@@ -15,8 +15,8 @@ To write a Python program that defines a function which accepts two values and r
 def modulo_calculator(a, b):
     return a % b
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(input())
+num2 = int(input())
 
 result = modulo_calculator(num1, num2)
 
@@ -25,8 +25,8 @@ print("Remainder:", result)
 
 ## Output
 ```
-Enter first number: 17
-Enter second number: 5
+17
+5
 Remainder: 2
 ```
 ## Result
