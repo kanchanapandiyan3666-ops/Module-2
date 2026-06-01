@@ -7,9 +7,11 @@ Assign the value 16 to a variable a.
 Use the built-in bin() function to convert the number to binary.
 Print the result.
 ## Program
+```
 num = int(input())
 binary = bin(num)
 print("Binary value:", binary)
+```
 ## Output
 <img width="1261" height="322" alt="Screenshot 2026-06-01 133034" src="https://github.com/user-attachments/assets/ecd8e23e-5197-414c-b169-8a0ed3700ef2" />
 ## Result
@@ -26,12 +28,14 @@ Print the result of the modulo operation.
 Get two integer inputs from the user.
 Call the result function with the user-provided values.
 ## Program
+```
 def modulo_calculator(a, b):
     return a % b
 num1 = int(input())
 num2 = int(input())
 result = modulo_calculator(num1, num2)
 print("Remainder:", result)
+```
 ## Output
 <img width="1298" height="391" alt="Screenshot 2026-06-01 133821" src="https://github.com/user-attachments/assets/cee510f5-ef32-4bb0-b16a-048e88378e4f" />
 
@@ -47,10 +51,12 @@ Get two integer inputs from the user.
 Use a lambda function to define a function f that returns a + b.
 Call the function with the user inputs and print the result.
 ## Program
+```
 add = lambda a, b: a + b
 num1 = int(input())
 num2 = int(input())
 print("Sum =", add(num1, num2))
+```
 ## Output
 <img width="1281" height="295" alt="Screenshot 2026-06-01 134408" src="https://github.com/user-attachments/assets/f736ec7c-a5f2-41fc-b076-b6a45e8c040f" />
 
@@ -75,6 +81,7 @@ Compute values using the formula:
 Print all rows of Pascal’s Triangle.
 End the program.
 ## Program
+```
 n = int(input())
 for i in range(n):
     num = 1
@@ -84,6 +91,7 @@ for i in range(n):
         print(num, end=" ")
         num = num * (i - j) // (j + 1)
     print()
+```
 ## Output
 <img width="1358" height="538" alt="Screenshot 2026-06-01 134806" src="https://github.com/user-attachments/assets/b89da2ca-2ee7-43ed-ae7c-e17b41bb2c0c" />
 ## Result
@@ -105,6 +113,7 @@ After the loop, compare rev with num:
 If equal, print that the number is a palindrome.
 Else, print that it is not a palindrome.
 ## Program
+```
 num = int(input())
 original = num
 reverse = 0
@@ -118,6 +127,7 @@ if original == rev:
     print("Palindrome Number")
 else:
     print("Not a Palindrome Number")
+```
 ## Output
 <img width="1417" height="640" alt="Screenshot 2026-06-01 135847" src="https://github.com/user-attachments/assets/c657ecf8-747e-4bdf-b130-c11e154751d6" />
 
