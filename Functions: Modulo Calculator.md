@@ -11,23 +11,7 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-```
-def modulo_calculator(a, b):
-    return a % b
-
-num1 = int(input())
-num2 = int(input())
-
-result = modulo_calculator(num1, num2)
-
-print("Remainder:", result)
-```
 
 ## Output
-```
-17
-5
-Remainder: 2
-```
 ## Result
-  Thus ,the program has been executed successfully.
+ 
